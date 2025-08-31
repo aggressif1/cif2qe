@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # CIF2QE: Crystallographic Information File to Quantum ESPRESSO
 
 A Python program that converts CIF (Crystallographic Information File) files to Quantum ESPRESSO input files through a comprehensive 5-phase analysis process.
 
-## 🚀 Features
+## Features
 
 - **Phase 1**: CIF file analysis and unit cell processing
 - **Phase 2**: Supercell generation for pattern detection
@@ -11,29 +10,29 @@ A Python program that converts CIF (Crystallographic Information File) files to 
 - **Phase 4**: Vacuum layer addition and Quantum ESPRESSO output generation
 - **Phase 5**: Surface hydrogenation for slab structures
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8 or higher
 - NumPy 1.21.0 or higher
 
-## 🛠️ Installation
+## Installation
 
 ### Method 1: Direct execution (Recommended)
 ```bash
-git clone https://github.com/username/cif2qe.git
+git clone https://github.com/aggressif1/cif2qe.git
 cd cif2qe
 python start.py
 ```
 
 ### Method 2: Install dependencies first
 ```bash
-git clone https://github.com/username/cif2qe.git
+git clone https://github.com/aggressif1/cif2qe.git
 cd cif2qe
 pip install -r requirements.txt
 python start.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 cif2qe/
@@ -53,7 +52,7 @@ cif2qe/
 └── output/                 # Generated Quantum ESPRESSO files
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Basic Usage
 1. Place your CIF files in the `INPUT_cif/` directory
@@ -74,7 +73,7 @@ The program supports various crystal structures including:
 - `supercell_coordinates.csv`: Supercell atomic coordinates
 - Process logs and verification results
 
-## 🏗️ Architecture
+## Architecture
 
 The project follows a modular architecture with:
 - **Factory Pattern**: Centralized component creation and dependency management
@@ -82,14 +81,14 @@ The project follows a modular architecture with:
 - **Separation of Concerns**: Input, processing, and output logic are separated
 - **Extensible Design**: Easy to add new phases or modify existing ones
 
-## 🧪 Testing
+## Testing
 
 Sample CIF files are provided in the `INPUT_cif/` directory for testing:
 - `Si/Si_mp-149_diamond.cif` - Silicon diamond structure
 - `NaCl/NaCl_cubic.cif` - Sodium chloride
 - `SiO2/SiO2_mp-7000_alpha-quartz.cif` - Alpha quartz
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -97,24 +96,24 @@ Sample CIF files are provided in the `INPUT_cif/` directory for testing:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Quantum ESPRESSO community for the electronic structure calculation package
 - Crystallography community for the CIF format specification
 - Python community for the excellent ecosystem
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 1. Check the existing issues in the GitHub repository
 2. Create a new issue with detailed description of the problem
 3. Include your CIF file and error messages if applicable
 
-## 🔄 Version History
+## Version History
 
 - **v1.0.0**: Complete 5-phase implementation with Factory pattern (Current)
 - **v0.51**: Initial implementation with basic CIF processing
@@ -127,7 +126,3 @@ If you encounter any issues or have questions:
 ---
 
 **Current Version**: v1.0.0 - Complete 5-phase implementation
-=======
-# cif2qe
-Automatic CIF Data Converter for Quantum Espresso Input Script
->>>>>>> dfcb5ad9dc07129f7814114ed3c147fcb719f21e
