@@ -1,4 +1,4 @@
-# CIF2QE: Crystallographic Information File to Quantum ESPRESSO
+# CIF2QE: Converting Crystallographic Information File to Quantum ESPRESSO Input Scripts
 
 A Python program that converts CIF (Crystallographic Information File) files to Quantum ESPRESSO input files through a comprehensive 5-phase analysis process.
 
